@@ -1,0 +1,90 @@
+/* CSS Variables */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    margin-bottom: 10px;
+    color: white;
+    background: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg') no-repeat center center/cover;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.photo-gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Slider */
+.testimonial-slider {
+    padding: 50px 0;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+}
+
+.carousel-item p {
+    font-size: 1.2rem;
+}
+
+.carousel-item h5 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-item p {
+        font-size: 1rem;
+    }
+}
+
+.slide{
+    background: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg') no-repeat center center/cover;
+}

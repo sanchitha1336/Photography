@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Photography</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-content">
+        <h1>Welcome to Our Photography Gallery</h1>
+        <p>Discover the world through our lens.</p>
+    </div>
+</section>
+
+<!-- Grid Photo Gallery -->
+<section class="photo-gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 1">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 2">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 3">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 4">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 5">
+            </div>
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?cs=srgb&dl=pexels-unknown6user-1646753.jpg&fm=jpg" width="300" height="300" alt="Photo 6">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonial Slider -->
+<section class="testimonial-slider">
+    <div class="container">
+        <h2 class="text-center mb-5">Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AjfwiYuxTtuE7xWOiUmJ0agljIKcFVcpzA&s" class="rounded-circle d-block mx-auto mb-4" alt="Testimonial 1">
+                    <p class="text-center">"Fantastic photos! They captured the essence of the moment perfectly."</p>
+                    <h5 class="text-center">- John Doe</h5>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AjfwiYuxTtuE7xWOiUmJ0agljIKcFVcpzA&s" class="rounded-circle d-block mx-auto mb-4" alt="Testimonial 2">
+                    <p class="text-center">"Absolutely stunning! I couldn't be happier with the results."</p>
+                    <h5 class="text-center">- Jane Smith</h5>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1AjfwiYuxTtuE7xWOiUmJ0agljIKcFVcpzA&s" class="rounded-circle d-block mx-auto mb-4" alt="Testimonial 3">
+                    <p class="text-center">"Professional and creative. I highly recommend them for any photography needs."</p>
+                    <h5 class="text-center">- Emily Brown</h5>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
